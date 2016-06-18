@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+      #warning-message { display: none; }
+      @media only screen and (orientation:portrait){
+          #wrapper { display:none; }
+          #warning-message { display:block; }
+      }
+      @media only screen and (orientation:landscape){
+          #warning-message { display:none; }
+      }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+      <!-- your html for your website in landscape mode -->
+      <p>Your device is in landscape mode.</p>
+  </div>
+  <div id="warning-message">
+      <p>Your device is in portrait mode.</p>
+  </div>
+</body>
+</html>
