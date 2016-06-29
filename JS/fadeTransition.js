@@ -1,4 +1,6 @@
 //add fade in transition to your website
+//just link this '.js' file from your html file to make this work.
+//Created by @snkrsnkampa
 var speed = 'slow';
 
 $('html, body').hide();
