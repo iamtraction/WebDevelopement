@@ -1,3 +1,4 @@
+//add fade in transition to your website
 var speed = 'slow';
 
 $('html, body').hide();
