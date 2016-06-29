@@ -6,3 +6,4 @@ $(document).ready(function(){
  }).scroll();
 });
 //Use negative value instead of positive (eg. -0.2) to control the normal scroll speed of elements
+//NOTE: jQuery is required for this script to work
