@@ -1,3 +1,4 @@
+//Just add this script for smooth scrolling between inpage links/anchors
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -12,3 +13,4 @@ $(function() {
     }
   });
 });
+//NOTE: jQuery is required for this script to work
